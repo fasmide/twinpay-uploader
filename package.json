@@ -1,0 +1,17 @@
+{
+  "author": "Kristian Mide (kristian@mide.dk)",
+  "name": "twinpay-uploader",
+  "description": "Uploads csv files to Twinpay installations",
+  "version": "0.0.2",
+  "dependencies": {
+    "commander": "~2.0.0",
+    "form-data": "~0.1.0",
+    "request": "~2.25.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ]
+}
