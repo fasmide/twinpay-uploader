@@ -1,4 +1,4 @@
-# Intro
+# twinpay-uploader
 
 This simple example shows users how to import data into a Twinpay installation using a simple csv format.
 
