@@ -87,6 +87,6 @@ The column header should not be included in the file.
 
 ## The update is executed like this:
 
-1. If a `cardno` is found that does not exist not in the database, it will be created.
+1. If a `cardno` is found that does not exist in the database, it will be created.
 2. If a `cardno` does exist `verification`, `identifier`, `extra1` and `extra2` is updated
 3. If a `cardno` is in the database but not in the file, it will be removed if the balance is zero (0.00)
