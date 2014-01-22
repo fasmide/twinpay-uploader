@@ -70,6 +70,22 @@ The POST request is a standard form file upload request encoded with `multipart/
 
 # CSV Format
 
+## Data fields
+
+### cardno
+
+This is what the user enters as 'username' when logging into their account. (This is typically printed directly on the card)
+
+### verification
+
+This is sort of a password, that is not written anywhere on the card. Also used when logging in.
+
+### identifier
+This is the data written to the card. (In case of RFID/NFC tags its their unique ID)
+
+### extra1 and extra2
+Used to make it easier to find people in the administration, typically extra1 is used for the cardholders name, but anything goes. (extra2 could be an id from a foreign database or what you see fit)
+
 ## Layout
 
 `Cardno;Verification;Identifier;Extra1;Extra2`
